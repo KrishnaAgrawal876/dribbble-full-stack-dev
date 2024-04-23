@@ -1,0 +1,22 @@
+#option-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.option-head {
+  margin-top: 5%;
+}
+
+button {
+  margin: 25px;
+  padding: 10px 20px;
+  border: 2px solid blueviolet;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #f0f0f0; /* Default background color */
+}
+
+button.selected {
+  background-color: #ff4382;
+}
